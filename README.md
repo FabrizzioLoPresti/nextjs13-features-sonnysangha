@@ -1,5 +1,35 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Project Deployed in Vercel: [CRUD App - Nextjs 13 New Features]()
+
+Nextjs 13 Project using:
+
+- Src and App Folder
+- Import Alias (@)
+- ESLint
+- .env.local and .env
+- Google Fonts and TailwindCSS
+- Types
+- Metadata
+- Link and Image Component
+- Layout and Page Structure (layout, page, error, not-found, loading)
+- Client Routes
+- Params ([id] folder) in page.tsx
+- Dynamic Routes and Params | SearchParams (/products/[id]?params=example)
+- Static Site Generation using generateStaticParams() Function to get data from API
+- API Routes using Route Handlers API -> params, query, body and searchParams
+- Async GET in page.tsx
+- Suspense React Component
+- Page not-found.tsx, loading.tsx and notFound() Function from 'next/navigation' that redirect to 404 page
+- useRouter(), useParam() and useSearchParams() Hooks in Client Components
+- Revalidate -> Tags and revalidateTag() Function from next/cache, next: cache and revelidate options in get from Page.
+- Server Actions
+- Route Groups
+
+### Links Projects
+
+- [Sonny Sangha - The Ultimate NEXT.JS 13 Crash Course for Beginners - Build 6 Apps in 18 Hours! (2023)](https://www.youtube.com/watch?v=7DVdVGm7Ht8)
+
 ## Getting Started
 
 First, run the development server:
