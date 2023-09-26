@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Project Deployed in Vercel: [CRUD App - Nextjs 13 New Features]()
+Project Deployed in Vercel: [CRUD App - Nextjs 13 New Features](https://nextjs13-features-sonnysangha.vercel.app/)
 
 Nextjs 13 Project using:
 
