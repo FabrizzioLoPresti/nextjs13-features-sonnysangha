@@ -11,6 +11,7 @@ const Navbar = () => {
     <div className='flex flex-row gap-4 items-center'>
       <Link href="/">Home</Link>
       <Link href="/products">Products</Link>
+      <Link href="/search">Search</Link>
       <Link href="/contact">Contact</Link>
     </div>
   </nav>
