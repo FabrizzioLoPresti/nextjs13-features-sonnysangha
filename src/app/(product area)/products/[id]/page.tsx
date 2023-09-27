@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { type Product } from '@/types/types'
+import DeleteButton from '@/components/delete-button'
 
 interface Props {
   params: {
@@ -45,9 +46,7 @@ export default async function ProductPage ({
         >
           Edit Product
         </Link>
-        <button className="bg-slate-500 px-4 py-2 rounded-lg w-fit hover:bg-slate-900 transition-colors ease-in-out duration-300">
-          Delete Product
-        </button>
+        <DeleteButton id={product.id} />
       </div>
     </div>
   )

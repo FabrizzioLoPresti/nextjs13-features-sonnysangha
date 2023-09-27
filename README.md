@@ -23,7 +23,7 @@ Nextjs 13 Project using:
 - Page not-found.tsx, loading.tsx and notFound() Function from 'next/navigation' that redirect to 404 page
 - useRouter(), useParam() and useSearchParams() Hooks in Client Components
 - Revalidate -> Tags and revalidateTag() Function from next/cache, next: cache and revelidate options in get from Page.
-- Server Actions
+- Server Actions using Experimental useFormState and useFormStatus React Hooks and useTransition() Hook from react for Delete Button
 - Route Groups
 
 ### Links Projects
